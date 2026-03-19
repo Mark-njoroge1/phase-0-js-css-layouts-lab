@@ -1,12 +1,10 @@
-/*cat breed container styles*/
 .cat-container{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 2em;
-}
+} 
 
-/*cat breed card*/
 .cat-breed{
     flex: 1 1 300px;
     margin: 1em;
@@ -18,33 +16,28 @@
     transition: 0.03s;
 }
 
-/*image of cat breed card*/
 .cat-breed img{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-/*cat breed card headings*/
 .cat-breed h3{
     margin: 0.5em 0;
 }
 
-/*cat breed paragraphs*/
 .cat-breed p{
    margin: 0.5em 0 1em; 
 }
 
-/*response layout*/
 @media{max-width: 100%;
     .cat-breed{
         flex-direction: column;
     align-items: centre;
     flex: 1 1 100%;
     max-width: 100%;
-    }
-}
-/*cat breed card hover effect*/
+    } 
+    
 .cat-breed:hover{
 transform: scale(1.05);
 }
